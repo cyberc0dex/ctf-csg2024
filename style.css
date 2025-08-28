@@ -45,6 +45,8 @@ body {
     margin-top: 10px;
 }
 .challenge {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
     background-color: #3a3a3a;
     padding: 40px;
     border-radius: 8px;
@@ -56,8 +58,8 @@ body {
 .download button {
     font-family: "JetBrains Mono", monospace;
     font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     padding: 10px 15px;
     background-color: #d9f11f;
     border: none;
@@ -71,7 +73,7 @@ body {
 .checkFlag button {
     font-family: "JetBrains Mono", monospace;
     font-weight: bold;
-    margin-left: 10px;
+    margin-top:20px;
     padding: 10px 15px;
     background-color: #d9f11f;
     border: none;
@@ -84,19 +86,20 @@ body {
     color: #d9f11f;
     border: solid 1px #d9f11f;
     border-radius: 5px;
-    width:50%;
+    width:500px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 18px !important;
 }
 .checkFlag input {
     font-family: "JetBrains Mono", monospace;
     font-weight: bold;
-    /* color: #2c2c2c; */
     color: #1e1e1e;
     padding: 10px;
     width: 40%;
+    min-width:250px;
     border-radius: 5px;
     border: none;
+    margin-right:5px;
 }
 .popup {
     position: fixed;
@@ -114,4 +117,14 @@ body {
 }
 .popup.error {
     background-color: #dc3545;
+}
+
+
+@media (max-width:600px) {
+    .challenge {
+        padding: 20px;
+    }
+    .challName {
+        max-width:90%;
+    }
 }
