@@ -85,56 +85,6 @@
 </div>
 
 
-<!--  FORENSIC  -->
-<div class="wrapper">  
-    <div class="category">
-        <h2 class="accordionn" onclick="toggleCategory(this)">
-            <span class="arrow">▸</span> Forensic
-        </h2>
-
-        <div class="category-content">
-		
-            <!-- Recovery -->
-            <div class="challenge">
-                <div class="challName">Recovery</div>
-                <div>Recover flag.txt</div>
-                <div class="download">
-                    <a href="ctf/forensic/recovery/challenge.tar" download>
-                        <button>Download File</button>
-                    </a>
-                </div>
-                <div class="checkFlag">
-                    <input type="text" id="challenge_forensic_1" placeholder="Flag format: CSG_FLAG{flag}">
-                    <button onclick="checkFlag('challenge_forensic_1')">Submit Flag</button>
-                    <a href="solution/Forensic/recovery.pdf" target="_blank">
-                        <button>View Solution</button> 
-                    </a>
-                </div>
-            </div>
-
-            <!-- Can you give us the secret -->
-            <div class="challenge">
-                <div class="challName">Can you give us the secret</div>
-                <div>Find the flag from the file.<br>Extract client secret value, used to post blog from the memory dump file. </div>
-                <div class="download">
-                    <a href="ctf/forensic/canyougiveusthesecret/canyougiveusthesecret" download>
-                        <button>Download File</button>
-                    </a>
-                </div>
-                <div class="checkFlag">
-                    Unfortunately I dont have the flag. But here's the solution anyway.
-                    <a href="solution/Forensic/Can you give us the secret.pdf" target="_blank">
-                        <button>View Solution</button>
-                    </a>
-                </div>
-            </div>
-
-        </div> 
-		
-    </div>
-</div>
-
-
 <!--  NETWORK  -->
 <div class="wrapper">
     <div class="category">
@@ -716,6 +666,47 @@
 
     </div>
 </div>
+
+
+<!--  FORENSIC  -->
+<div class="wrapper">  
+    <div class="category">
+        <h2 class="accordionn" onclick="toggleCategory(this)">
+            <span class="arrow">▸</span> Forensic
+        </h2>
+
+        <div class="category-content">
+		
+            <!-- Recovery -->
+            <div class="challenge">
+                <div class="challName">Recovery</div>
+                <div class="checkFlag">
+                    <!-- <input type="text" id="challenge_forensic_1" placeholder="Flag format: CSG_FLAG{flag}">
+                    <button onclick="checkFlag('challenge_forensic_1')">Submit Flag</button> -->
+                    Unfortunately the challange is not available. But here's the solution anyway.
+                    <a href="solution/Forensic/recovery.pdf" target="_blank">
+                        <button>View Solution</button> 
+                    </a>
+                </div>
+            </div>
+
+            <!-- Can you give us the secret -->
+            <div class="challenge">
+                <div class="challName">Can you give us the secret</div>
+                <div class="checkFlag">
+                    Unfortunately the challange is not available. But here's the solution anyway.
+                    <a href="solution/Forensic/Can you give us the secret.pdf" target="_blank">
+                        <button>View Solution</button>
+                    </a>
+                </div>
+            </div>
+
+        </div> 
+		
+    </div>
+</div>
+
+<div style="padding-bottom:80px;"></div>
 
 <div id="popup" class="popup"></div>
 
