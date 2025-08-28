@@ -86,7 +86,7 @@ body {
     color: #d9f11f;
     border: solid 1px #d9f11f;
     border-radius: 5px;
-    width:500px;
+    max-width:500px;
     font-weight: bold;
     font-size: 18px !important;
 }
@@ -95,8 +95,7 @@ body {
     font-weight: bold;
     color: #1e1e1e;
     padding: 10px;
-    width: 40%;
-    min-width:250px;
+    width: 400px;
     border-radius: 5px;
     border: none;
     margin-right:5px;
@@ -126,5 +125,9 @@ body {
     }
     .challName {
         max-width:90%;
+    }
+    .checkFlag input {
+        width: 90%;
+        min-width:250px;
     }
 }
